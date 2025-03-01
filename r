@@ -410,7 +410,7 @@ function Library:create(options)
 
 	options = self:set_defaults({
 		Name = "Mercury",
-		Size = UDim2.fromOffset(600, 400),
+		Size = UDim2.fromOffset(350, 250),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://github.com/deeeity/mercury-lib"
 	}, options)
@@ -541,7 +541,7 @@ function Library:create(options)
 
 	local closeButton = core:object("ImageButton", {
 		BackgroundTransparency = 1,
-		Size = UDim2.fromOffset(14, 14),
+		Size = UDim2.fromOffset(10, 10),
 		Position = UDim2.new(1, -11, 0, 11),
 		Theme = {ImageColor3 = "StrongText"},
 		Image = "http://www.roblox.com/asset/?id=8497487650",
@@ -645,7 +645,7 @@ function Library:create(options)
 		Name = "hehehe siuuuuuuuuu",
 		BackgroundTransparency = 0,
 		Theme = {BackgroundColor3 = "Secondary"},
-		Size = UDim2.new(0, 125, 0, 25)
+		Size = UDim2.new(0, 90, 0, 20)
 	}):round(5)
 
 	local homeButtonText = homeButton:object("TextLabel", {
