@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vvhoy884ugvv/zukztktz/refs/heads/main/r"))()
 
 local gui = Library:create{
     Theme = Library.Themes.Serika
