@@ -14,7 +14,7 @@ tab:button({
     Callback = function()
         tab:prompt{
             Title = "baby",
-            Text = "shark doo doo doo doo im blank lmao",
+            Text = "Inil is back",
             Buttons = {
                 Ok = function()
                     tab:prompt{
